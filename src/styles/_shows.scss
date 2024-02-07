@@ -5,7 +5,8 @@
     min-height: 50vw;
 
     &__list{
-      
+
+        
         margin-top: 44px;
         display: none;
         grid-template-columns: 1fr 1fr 1fr;
@@ -21,9 +22,21 @@
         }
       &__item {
 
+        position: relative;
+        overflow: hidden;
+        border-radius: 4px;
+
         img {
-          max-width: 100%;
+          /*max-width: 100%;
+          height: 100%;
           border-radius: 4px;
+          object-fit: cover;*/
+
+                width: 100%;
+                height: 100%;
+                aspect-ratio: 16/9; // Ajuste conforme necessário
+                object-fit: contain;
+                display: block;
         }
         
       }  

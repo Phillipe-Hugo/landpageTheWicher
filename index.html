@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clone DisneyPlus+</title>
+    <title>Projeto The Witcher LandPage</title>
     <link rel="stylesheet" href="dist/css/main.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header" style="display: none;">
         <div class="header__container">
             <h1>
-                <img class="header__logo" src="./dist/images/disneyplus.svg" alt="Disney+">
+                <img class="header__logo" src="./dist/images/thewitcherherologo.jpg" alt="Disney+">
             </h1>
             <ul class="header__links">
                 <li class="header__links__item ">
@@ -25,100 +25,86 @@
     </header>
     <section class="hero">
         <div class="hero__content">
-            <div class="hero__content__branding">
-                <img src="./dist/images/disneyplus.svg" alt="Disney+">
+            <div class="hero__content__branding" >
+                <img src="./dist/images/disneyplus.svg" style="display: none;" alt="Disney+" >
             </div>
-            <h3 class="title--small">As melhores historias em um só lugar.</h3>
+            <h1 class="title--big">Seu bruxo favorito</h1>
             <p>
-                <a href="#" class="link-text">Assinar o Disney+</a>
+                <a href="https://pt.wikipedia.org/wiki/Geralt_de_Rívia" class="link-text">Geralt de Rivia</a>
                 <br>
-                <span class="text">R$27,90/mês o R$279,90/ano à vista*</span>
+                <span class="custom-text-color">O mutante Geralt de Rívia é um caçador de monstros que luta para encontrar seu lugar num mundo onde as pessoas muitas vezes são mais perversas que as criaturas selvagens.</span>
             </p>
-            <ul class="hero__content__combos">
-                <li class="hero__content__combos__combo">
-                    <img src="./dist/images/logos/disney_star_plus.png" alt="Disney+ - star+ - Combo+">
-                    <button class="button">Assine agora</button>
-                    <span class="text">R$45,90/Mês*</span>
-                </li>
-                <li class="hero__content__combos__combo">
-                    <img src="./dist/images/logos/disney_star_plus.png" alt="Assine agora DisneyPlus+disney_star_plus">
-                    <button class="button">Assine agora</button>
-                    <span class="text">R$55,90/Mês*</span>
-                </li>
-            </ul>
-            <p class="text--small">
-                *O preço pode variar caso a assinatura seja feita através de outras plataformas.
-            </p>
-        </div>
+            
+                    </div>
     </section>
     <section class="shows">
         <nav class="shows__tabs">
-            <button data-tab-button="em_breve" class="shows__tabs__button shows__tabs__button--is--active">Em breve</button>
-            <button data-tab-button="populares" class="shows__tabs__button">Mais populares</button>
-            <button data-tab-button="star_plus" class="shows__tabs__button">Mais no Star+</button>
+            <button data-tab-button="comeco" class="shows__tabs__button shows__tabs__button--is--active">O Começo</button>
+            <button data-tab-button="romances" class="shows__tabs__button">Romances</button>
+            <button data-tab-button="inimigos" class="shows__tabs__button">Inimigos</button>
         </nav>
-        <ul data-tab-id="em_breve" class="shows__list shows__list--is--active">
+        <ul data-tab-id="comeco" class="shows__list shows__list--is--active">
             <li class="shows__list__item">
-                <img src="./dist/images/em_breve/spidey.jpg" alt="spider">
+                <img src="./dist/images/bruxo1.jpg" alt="primeiracomeco">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/em_breve/desencantada.jpg" alt="desencantada">
+                <img src="./dist/images/bruxo2.jpg" alt="segundocomeco">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/em_breve/lobisomem.jpg" alt="lobisomem">
+                <img src="./dist/images/bruxo3.jpg" alt="terceirocomeco">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/em_breve/sem_limites.jpg" alt="sem limites">
+                <img src="./dist/images/quartocomeco.webp" alt="quartocomeco">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/em_breve/the_santa_clauses.jpg" alt="santa clauses">
+                <img src="./dist/images/quintocomeco.jpg" alt="quintocomeco">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/em_breve/willow.jpg" alt="willon">
-            </li>
-        </ul>
-        <ul data-tab-id="populares" class="shows__list">
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_populares/o_incrivel_dr_pol.jpg" alt="incrivel">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_populares/bluey.jpg" alt="blue">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_populares/cavaleira_da_lua.jpg" alt="cavaleira">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_populares/obi_wan.jpg" alt="obiwan">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_populares/red.jpg" alt="red">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_populares/tudo_igual_sqn.jpg" alt="tudo igual">
+                <img src="./dist/images/sextocomeco.jpg" alt="sextocomeco">
             </li>
         </ul>
-        <ul data-tab-id="star_plus" class="shows__list">
+        <ul data-tab-id="romances" class="shows__list">
             <li class="shows__list__item">
-                <img src="./dist/images/mais_no_star_plus/belair.jpg" alt="belair">
+                <img src="./dist/images/romanceum.jpg" alt="incrivel">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/mais_no_star_plus/libertadores.jpg" alt="libertadores">
+                <img src="./dist/images/romancedois.jpg" alt="blue">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/mais_no_star_plus/nba.jpg" alt="nba">
+                <img src="./dist/images/romancetres.jpg" alt="cavaleira">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/mais_no_star_plus/os_simpson.jpg" alt="simpsons">
+                <img src="./dist/images/romancequatro.jpg" alt="obiwan">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/mais_no_star_plus/premier_league.jpg" alt="premier league">
+                <img src="./dist/images/adda5.jpg" alt="red">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/mais_no_star_plus/the_kardashians.jpg" alt="the kardashians">
+                <img src="./dist/images/sextoromance.jpg" alt="tudo igual">
+            </li>
+        </ul>
+        <ul data-tab-id="inimigos" class="shows__list">
+            <li class="shows__list__item">
+                <img src="./dist/images/inimigoum.jpg" alt="belair">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/inimigodois.jpg" alt="libertadores">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/def1280.jpg" alt="nba">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/inimigoquatro.webp" alt="simpsons">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/inimigocinco.jpg" alt="premier league">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/inimigoseis.webp" alt="the kardashians">
             </li>
         </ul>
     </section>
-    <section class="plans">
+    <section class="plans" style="display: none;">
         <h2 class="title--big">Escolha seu plano</h2>
         <ul class="plans__list">
             <li class="plans__list__item">
@@ -145,112 +131,78 @@
         </p>
     </section>
     <section class="image-text-section">
-        <img src="./dist/images/tv_pc_tablet_celular.png" alt="Imagem TV, tablet e PC">
+        <img src="./dist/images/elenco.jpg_large" alt="Imagem TV, tablet e PC">
         <div class="image-text-section__text_container">
-            <h2 class="title">Assita do seu jeito</h2>
+            <h2 class="title">Elenco de sua série favorita</h2>
             <p class="text--big">
-                Aproveite a tela grade da TV ou assita no tablet, laptop, celular e outros aparelhos. Nossa seleção de títulos em 4K não para de crescer. Além disso, para a feliciadade de todos, é possivel assistem em até 4 telas ao mesmo tempo.  
-            </p>
+                Henry Cavill,
+                Anya Chalotra,
+                Freya Allan,
+                Joey Batey,
+                Eamon Farren,
+                MyAnna Buring,
+                Mimî M Khayisa,
+                Mahesh Jadu,
+                Anna Shaffer,
+                Royce Pierreson,
+                Tom Canton,
+                Mecia Simson,
+                Wilson Mbomio,
+                Kim Bodnia,
+                Jodhi May,
+                Björn Hlynur Haraldsson,
+                Adam Levy,
+                Lars Mikkelsen,
+                Jeremy Crawford,
+                Basil Eidenbenz,
+                Paul Bullion,
+                Yasen Atour,
+                Therica Wilson-Read,
+                Bart Edwards,
+                Cassie Clare,
+                Robbie Amell,
+                Hugh Skinner,
+                Chris Fulton e 
+                Kristofer Hivju            </p>
         </div>
     </section>
     <section class=" image-text-section image-text-section--image-full-width">
         <picture>
-            <source media="(max-width: 768px)" srcset="./dist/images/fundo_rei_leao_celular.png"/>
-            <img src="./dist/images/fundo_rei_leao.png" alt="Imagem do rei Leao">
+            <source media="(max-width: 768px)" srcset="./dist/images/Witcher_-_Atrizes.png"/>
+            <img src="./dist/images/Witcher_-_Atrizes.png" alt="Imagem do rei Leao">
         </picture>
-        <div class="image-text-section__text_container image-text-section--image-full-width__text_container">
-            <h2 class="title">Baixe filmes e series</h2>
-            <p class="text--big">
-                Baixe e assista quando e onde quiser. Assim, seus favoritos estão sempre com você, até mesmo sem internet.  
-            </p>
-        </div>
+       
     </section>
-    <section class="available-devices">
-        <h2 class="title">Disponivel nos seus dispositivos favoritos</h2>
-        <ul class="available-devices__list">
-            <li class="available-devices__list__item">
-                <img src="./dist/images/dispositivos/computador.png" alt="Imagem dispositivo PC">
-                <h4 class="title--small">Computador</h4>
-                <ul class="text">
-                    <li>MacOs</li>
-                    <li>Windows</li>
-                    <li>Linux</li>
-                </ul>
-            </li>
-            <li class="available-devices__list__item">
-                <img src="./dist/images/dispositivos/tv.png" alt="Imagem dispositivo PC">
-                <h4 class="title--small">Computador</h4>
-                <ul class="text">
-                    <li>Amazon Fire TV</li>
-                    <li>Android TV</li>
-                    <li>Apple TV</li>
-                    <li>Chromecast</li>
-                    <li>TVs LG</li>
-                    <li>Roku</li>
-                    <li>Samsung</li>
-                </ul>
-            </li>
-            <li class="available-devices__list__item">
-                <img src="./dist/images/dispositivos/videogames.png" alt="Imagem dispositivo PC">
-                <h4 class="title--small">Computador</h4>
-                <ul class="text">
-                    <li>PS4</li>
-                    <li>PS5</li>
-                    <li>Xbox One</li>
-                    <li>Xbox Series X</li>
-                    <li>Xbox Serie S</li>
-                </ul>
-            </li>
-            <li class="available-devices__list__item">
-                <img src="./dist/images/dispositivos/celular.png" alt="Imagem dispositivo PC">
-                <h4 class="title--small">Computador</h4>
-                <ul class="text">
-                    <li>Table Amazon Fire</li>
-                    <li>Celulares e Tables Android</li>
-                    <li>Iphone e Ipad</li>
-                </ul>
-            </li>
-            
-        </ul>
-    </section>
+    
     <section class="faq">
         <h2 class="title">Perguntas frequentes</h2>
         <ul  class="faq__question">
             <li class="faq__questions__item faq__questions">
                 <div class="faq__questions__item__question" data-faq-question>
-                    O que está inclúido no Disney+?
+                    Quem é o amor de Geralt?
                 </div>
                 <div class="faq__questions__item__answer text--big">
-                    <p>O Disney+ oferece:</p>
-                    <br/>
-                <p>• Experiência de entretenimento exclusiva.</p><br/>
-                <p>• As melhores histórias da Disney, Pixar, Marvel, Star Wars e National Geographic, tudo em um só lugar.</p><br/>
-                <p>• Downloads ilimitados em até 10 dispositivos compatíveis.</p><br/>
-                <p>• Mais de 300 títulos em 4K UHD e HDR.</p><br/>
-                <p>• A possibilidade de assistir em até 4 dispositivos compatíveis simultaneamente sem custo adicional.</p><br/>
-                <p>• IMAX Enhanced: disponível para alguns títulos da Marvel em dispositivos compatíveis com o Disney+.</p><br/>
+                   
+                <p>• Sem dúvida é a nossa queria e amada Yennefer interpretada por Anya Chalotra</p><br/>
+                
                 </div>
             </li>
             <li class="faq__questions__item">
                 <div class="faq__questions__item__question"data-faq-question>
-                    Já tem o Disney+ ou o Star+ e quer o Combo+?
+                    Quem ficou proxima de Geralt quando ele perdeu sua mémoria?
                 </div>
                 <div class="faq__questions__item__answer text--big">
-                    <p>Ao assinar o Combo+:</p><br/>
-                    <p>• O valor da sua assinatura existente será descontado do preço do Combo+.</p><br/>
-                    <p>• Se você assina o plano mensal, o valor que você paga mensalmente será descontado do preço do Combo+.</p><br/>
-                    <p>• Se você tem uma assinatura anual do Disney+ cobrada diretamente pelo Disney+, não é possível mudar para o Combo+ no momento. Entre em contato com o suporte do Disney+ para conhecer suas opções.</p><br/>
-                    <p>• Você vai receber um e-mail com os valores detalhados assim que finalizar o pagamento.</p><br/>
-                    <p>• Lembre-se: você pode cancelar a assinatura quando quiser.</p><br/><br/>
-                    <p>No momento, apenas a assinatura mensal do Combo+ está disponível.</p>
+                    
+                    <p>• Nossa linda Triss Merigold interpretada por Anna Shaffer.</p><br/>
+                    
                 </div>
             </li>
             <li class="faq__questions__item">
                 <div class="faq__questions__item__question"data-faq-question>
-                    Quais formas de pagamento posso ultilizar?
+                    Quem é o inimigo mais mortal de Geralt de Riva?
                 </div>
                 <div class="faq__questions__item__answer text--big">
-                    <p>Você pode utilizar: cartão de débito, cartão de crédito, PayPal, Mercado Pago, e também empresas parceiras como Google Play Store, App Store da Apple; Mercado Livre e provedores locais de TV, telefonia e internet.</p>
+                    <p>Nosso mais mortal inimigo, Eredin</p>
                 </div>
             </li>
         </ul>
@@ -258,7 +210,7 @@
 
     <footer class="footer">
        <div class="footer__container">
-        <img class="footer__logo" src="./dist/images/disneyplus.svg" alt="DisneyPlus">
+        <img class="footer__logo" src="./dist/images/bruxo1.jpg" alt="DisneyPlus">
         <ul class="footer__links">
             <li class="footer__links__item">
                 <div class="language-selector">
@@ -288,14 +240,14 @@
                 <a class="text--small" href="#">Ajuda</a>
             </li>
             <li class="footer__links__item">
-                <a class="text--small" href="#">Sobre a Disney+</a>
+                <a class="text--small" href="#">Sobre a Ebac</a>
             </li>
         </ul>
         <p class="text--small">
-            ® 2024 Disney, Disney+ e The Walt Disney Company. Todos os direitos reservados. Serviço de assinatura paga. Conteúdo sujeito a disponibilidade.
+            ® 2024 projeto de Phillipe Hugo, não ouse copiar. 
         </p>
         <p class="text--small">
-            Disney+ é um serviço pago, baseado em assinatura e sujeito a termos e condições. O serviço Disney+ é comercializado por The Walt Disney Company (Brasil) Ltda., World Trade Center, Av. Das Nações Unidas, 12.551, 12.555, 12.559, Piso 10, São Paulo/SP – CEP 04578-903, Brasil e CNPJ/M 73.042.962/0004-20
+            Esse projeto é com base no exercicios da EBAC
         </p>
        </div>
     </footer>
